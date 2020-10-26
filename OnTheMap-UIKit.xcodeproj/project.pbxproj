@@ -9,21 +9,41 @@
 /* Begin PBXBuildFile section */
 		CD34A75B2539D0770056FB7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD34A75A2539D0770056FB7B /* AppDelegate.swift */; };
 		CD34A75D2539D0770056FB7B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD34A75C2539D0770056FB7B /* SceneDelegate.swift */; };
-		CD34A75F2539D0770056FB7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD34A75E2539D0770056FB7B /* ViewController.swift */; };
+		CD34A75F2539D0770056FB7B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD34A75E2539D0770056FB7B /* LoginViewController.swift */; };
 		CD34A7622539D0770056FB7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD34A7602539D0770056FB7B /* Main.storyboard */; };
 		CD34A7642539D0790056FB7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD34A7632539D0790056FB7B /* Assets.xcassets */; };
 		CD34A7672539D0790056FB7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD34A7652539D0790056FB7B /* LaunchScreen.storyboard */; };
+		CD75DAE52547623200C979B0 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD75DAE42547623200C979B0 /* MainViewModel.swift */; };
+		CDAD84D025474517002B67B8 /* StudentLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAD84CF25474517002B67B8 /* StudentLocation.swift */; };
+		CDC605EE2539F29B0022997F /* OTMClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC605ED2539F29B0022997F /* OTMClient.swift */; };
+		CDC605F2253A331D0022997F /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC605F1253A331D0022997F /* Request.swift */; };
+		CDC605F5253A332D0022997F /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC605F4253A332D0022997F /* Response.swift */; };
+		CDC605F8253B5DED0022997F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC605F7253B5DED0022997F /* TableViewController.swift */; };
+		CDC605FC253B72F40022997F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC605FB253B72F40022997F /* MainViewController.swift */; };
+		CDC605FF253B75FC0022997F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC605FE253B75FC0022997F /* MapViewController.swift */; };
+		CDC60608253BB4DC0022997F /* InformationPostingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC60607253BB4DC0022997F /* InformationPostingViewController.swift */; };
+		CDC61A39253D1C480005A429 /* VerifyLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC61A38253D1C480005A429 /* VerifyLocationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CD34A7572539D0770056FB7B /* OnTheMap-UIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OnTheMap-UIKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD34A75A2539D0770056FB7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD34A75C2539D0770056FB7B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CD34A75E2539D0770056FB7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD34A75E2539D0770056FB7B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CD34A7612539D0770056FB7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD34A7632539D0790056FB7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD34A7662539D0790056FB7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD34A7682539D0790056FB7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD75DAE42547623200C979B0 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		CDAD84CF25474517002B67B8 /* StudentLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentLocation.swift; sourceTree = "<group>"; };
+		CDC605ED2539F29B0022997F /* OTMClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTMClient.swift; sourceTree = "<group>"; };
+		CDC605F1253A331D0022997F /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		CDC605F4253A332D0022997F /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		CDC605F7253B5DED0022997F /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		CDC605FB253B72F40022997F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CDC605FE253B75FC0022997F /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		CDC60607253BB4DC0022997F /* InformationPostingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationPostingViewController.swift; sourceTree = "<group>"; };
+		CDC61A38253D1C480005A429 /* VerifyLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyLocationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +78,39 @@
 			children = (
 				CD34A75A2539D0770056FB7B /* AppDelegate.swift */,
 				CD34A75C2539D0770056FB7B /* SceneDelegate.swift */,
-				CD34A75E2539D0770056FB7B /* ViewController.swift */,
+				CDC60603253BB47B0022997F /* Models */,
+				CDC60604253BB49D0022997F /* View Controllers */,
 				CD34A7602539D0770056FB7B /* Main.storyboard */,
 				CD34A7632539D0790056FB7B /* Assets.xcassets */,
 				CD34A7652539D0790056FB7B /* LaunchScreen.storyboard */,
 				CD34A7682539D0790056FB7B /* Info.plist */,
 			);
 			path = "OnTheMap-UIKit";
+			sourceTree = "<group>";
+		};
+		CDC60603253BB47B0022997F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CD75DAE42547623200C979B0 /* MainViewModel.swift */,
+				CDAD84CF25474517002B67B8 /* StudentLocation.swift */,
+				CDC605F1253A331D0022997F /* Request.swift */,
+				CDC605F4253A332D0022997F /* Response.swift */,
+				CDC605ED2539F29B0022997F /* OTMClient.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CDC60604253BB49D0022997F /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CD34A75E2539D0770056FB7B /* LoginViewController.swift */,
+				CDC605FB253B72F40022997F /* MainViewController.swift */,
+				CDC605FE253B75FC0022997F /* MapViewController.swift */,
+				CDC605F7253B5DED0022997F /* TableViewController.swift */,
+				CDC60607253BB4DC0022997F /* InformationPostingViewController.swift */,
+				CDC61A38253D1C480005A429 /* VerifyLocationViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +183,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD34A75F2539D0770056FB7B /* ViewController.swift in Sources */,
+				CDAD84D025474517002B67B8 /* StudentLocation.swift in Sources */,
+				CDC605EE2539F29B0022997F /* OTMClient.swift in Sources */,
+				CDC605FC253B72F40022997F /* MainViewController.swift in Sources */,
+				CDC605F8253B5DED0022997F /* TableViewController.swift in Sources */,
+				CD34A75F2539D0770056FB7B /* LoginViewController.swift in Sources */,
+				CDC605FF253B75FC0022997F /* MapViewController.swift in Sources */,
+				CDC605F2253A331D0022997F /* Request.swift in Sources */,
+				CD75DAE52547623200C979B0 /* MainViewModel.swift in Sources */,
+				CDC61A39253D1C480005A429 /* VerifyLocationViewController.swift in Sources */,
+				CDC60608253BB4DC0022997F /* InformationPostingViewController.swift in Sources */,
 				CD34A75B2539D0770056FB7B /* AppDelegate.swift in Sources */,
+				CDC605F5253A332D0022997F /* Response.swift in Sources */,
 				CD34A75D2539D0770056FB7B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
